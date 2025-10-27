@@ -2,6 +2,8 @@
 
 Pre-entrega React (Vite) tematizada en **anime**: catálogo por categorías, detalle, **carrito con Context API**, **checkout simulado** con pantalla de confirmación.
 
+## 🚀  https://react-pre-entrega-4qni58e3h-ariels-projects-48477864.vercel.app/category/figuras
+
 ## Scripts
 ```bash
 npm install
@@ -19,3 +21,4 @@ npm run dev
 - Los productos están en `public/data/products.json`.
 - El carrito **acumula cantidades** si agregás el mismo producto varias veces.
 - El botón **Comprar** genera un `orderId` y redirige a `/orden-confirmada`, luego limpia el carrito.
+
