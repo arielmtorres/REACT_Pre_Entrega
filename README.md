@@ -1,16 +1,45 @@
-# React + Vite
+<<<<<<< HEAD
+# Anime House
+
+Pre-entrega React (Vite) tematizada en **anime**: catálogo por categorías, detalle, **carrito con Context API**, **checkout simulado** con pantalla de confirmación.
+
+## Scripts
+```bash
+npm install
+npm run dev
+```
+
+## Rutas
+- `/` catálogo
+- `/category/:categoryId` (figuras, ropa, mangas)
+- `/detail/:id` detalle de producto
+- `/cart` carrito
+- `/orden-confirmada` confirmación de compra (simulada)
+
+## Notas
+- Los productos están en `public/data/products.json`.
+- El carrito **acumula cantidades** si agregás el mismo producto varias veces.
+- El botón **Comprar** genera un `orderId` y redirige a `/orden-confirmada`, luego limpia el carrito.
+=======
+# React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+While this project uses React, Vite supports many popular JS frameworks. [See all the supported frameworks](https://vitejs.dev/guide/#scaffolding-your-first-vite-project).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Deploy Your Own
 
-## React Compiler
+Deploy your own Vite project with Vercel.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/framework-boilerplates/vite-react&template=vite-react)
 
-## Expanding the ESLint configuration
+_Live Example: https://vite-react-example.vercel.app_
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Deploying From Your Terminal
+
+You can deploy your new Vite project with a single command from your terminal using [Vercel CLI](https://vercel.com/download):
+
+```shell
+$ vercel
+```
+>>>>>>> 2488bbfd95e19d842a548d8fc5800ad9421d42a4

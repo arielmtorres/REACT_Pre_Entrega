@@ -1,0 +1,8 @@
+.nav{background:#0f142b;position:sticky;top:0;z-index:10;border-bottom:1px solid #1a2040}
+.nav-inner{max-width:1000px;margin:0 auto;padding:.75rem 1rem;display:flex;align-items:center;justify-content:space-between}
+.brand{font-weight:800;letter-spacing:.3px;color:#c4b5fd}
+.menu{list-style:none;display:flex;gap:1rem;margin:0;padding:0;align-items:center}
+.menu a{color:#c7d2fe}
+.menu a:hover{color:#f0abfc}
+.cart{position:relative}
+.badge{position:absolute;top:-6px;right:-10px;background:#f472b6;color:#0b1020;border-radius:999px;padding:0 .4rem;font-size:.75rem;font-weight:800}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 101,
+    "name": "Figura Luffy Gear 5",
+    "price": 79999,
+    "description": "One Piece – Monkey D. Luffy en Gear 5, edición coleccionista 18 cm.",
+    "imageURL": "https://m.media-amazon.com/images/I/51larXNg8dL._AC_SY300_SX300_QL70_ML2_.jpg",
+    "category": "figuras"
+  },
+  {
+    "id": 102,
+    "name": "Figura Tanjiro Kamado",
+    "price": 68999,
+    "description": "Demon Slayer – Tanjiro con Nichirin, base temática.",
+    "imageURL": "https://m.media-amazon.com/images/I/51OD+yCyLGL._AC_SL1000_.jpg",
+    "category": "figuras"
+  },
+  {
+    "id": 103,
+    "name": "Figura Goku Super Saiyan",
+    "price": 72999,
+    "description": "Dragon Ball Z – Goku SSJ a escala, pose de batalla.",
+    "imageURL": "https://m.media-amazon.com/images/I/61BIteRVFbL._AC_SL1200_.jpg",
+    "category": "figuras"
+  },
+  {
+    "id": 201,
+    "name": "Remera Attack on Titan",
+    "price": 14999,
+    "description": "Algodón peinado, estampado Survey Corps.",
+    "imageURL": "https://m.media-amazon.com/images/I/61leGZZEtSL._AC_SX679_.jpg",
+    "category": "ropa"
+  },
+  {
+    "id": 202,
+    "name": "Buzo Naruto Shippuden",
+    "price": 29999,
+    "description": "Capucha, bolsillos canguro, símbolo Uzumaki.",
+    "imageURL": "https://m.media-amazon.com/images/I/5113fYRr+ML._AC_SY550_.jpg",
+    "category": "ropa"
+  },
+  {
+    "id": 203,
+    "name": "Gorra One Piece",
+    "price": 11999,
+    "description": "Visera curva, calavera de Sombrero de Paja.",
+    "imageURL": "https://m.media-amazon.com/images/I/71uke4tg8nL._AC_SX679_.jpg",
+    "category": "ropa"
+  },
+  {
+    "id": 301,
+    "name": "Naruto Vol. 1",
+    "price": 8999,
+    "description": "Edición en español, editorial local.",
+    "imageURL": "https://m.media-amazon.com/images/I/812+BFL+4dL._SL1200_.jpg",
+    "category": "mangas"
+  },
+  {
+    "id": 302,
+    "name": "Chainsaw Man Vol. 3",
+    "price": 9999,
+    "description": "Acción y humor negro en una saga imperdible.",
+    "imageURL": "https://m.media-amazon.com/images/I/81EcwigTJML._SY342_.jpg",
+    "category": "mangas"
+  },
+  {
+    "id": 303,
+    "name": "Spy×Family Vol. 5",
+    "price": 9499,
+    "description": "Comedia y espionaje: la familia más querida del manga.",
+    "imageURL": "https://m.media-amazon.com/images/I/716tJmz71WL._SL1500_.jpg",
+    "category": "mangas"
+  }
+]
