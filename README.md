@@ -1,45 +1,48 @@
-<<<<<<< HEAD
-# Anime House
+![React](https://img.shields.io/badge/React-18.x-61DAFB?logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-5.x-646CFF?logo=vite&logoColor=white)
+![Context API](https://img.shields.io/badge/State-Context%20API-9B59B6)
+![Status](https://img.shields.io/badge/Status-Entrega%20Final-success)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-Pre-entrega React (Vite) tematizada en **anime**: catálogo por categorías, detalle, **carrito con Context API**, **checkout simulado** con pantalla de confirmación.
+# 🏠 Anime House – React eCommerce
 
-## Scripts
-```bash
-npm install
-npm run dev
-```
+Proyecto **React (Vite)** tematizado en **anime**, desarrollado como **entrega final**.  
+Incluye catálogo por categorías, detalle de productos, **carrito con Context API**, **checkout simulado**, **login** y **alta de productos**.
 
-## Rutas
-- `/` catálogo
-- `/category/:categoryId` (figuras, ropa, mangas)
-- `/detail/:id` detalle de producto
-- `/cart` carrito
+## 🚀 Tecnologías utilizadas
+
+- React
+- Vite
+- React Router DOM
+- Context API
+- CSS
+- JSON local (mock de datos)
+
+## 🛒 Funcionalidades principales
+
+- Catálogo de productos por categorías (figuras, ropa, mangas)
+- Detalle de producto con rutas dinámicas
+- Carrito global con Context API
+- Acumulación automática de cantidades
+- Eliminación y vaciado del carrito
+- Checkout simulado con generación de orderId
+- Pantalla de confirmación de compra
+- Login simulado
+- Alta de productos
+- Navegación SPA
+
+## 🧭 Rutas disponibles
+
+- `/` catálogo principal  
+- `/category/:categoryId` productos por categoría  
+- `/detail/:id` detalle de producto  
+- `/cart` carrito de compras  
 - `/orden-confirmada` confirmación de compra (simulada)
 
-## Notas
-- Los productos están en `public/data/products.json`.
-- El carrito **acumula cantidades** si agregás el mismo producto varias veces.
-- El botón **Comprar** genera un `orderId` y redirige a `/orden-confirmada`, luego limpia el carrito.
-=======
-# React + TypeScript + Vite
+## 📂 Datos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Los productos se cargan desde:
 
-While this project uses React, Vite supports many popular JS frameworks. [See all the supported frameworks](https://vitejs.dev/guide/#scaffolding-your-first-vite-project).
+```bash
+public/data/products.json
 
-## Deploy Your Own
-
-Deploy your own Vite project with Vercel.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/framework-boilerplates/vite-react&template=vite-react)
-
-_Live Example: https://vite-react-example.vercel.app_
-
-### Deploying From Your Terminal
-
-You can deploy your new Vite project with a single command from your terminal using [Vercel CLI](https://vercel.com/download):
-
-```shell
-$ vercel
-```
->>>>>>> 2488bbfd95e19d842a548d8fc5800ad9421d42a4
