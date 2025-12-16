@@ -16,7 +16,7 @@ Incluye catálogo por categorías, detalle de productos, **carrito con Context A
 - React Router DOM
 - Context API
 - CSS
-- JSON local (mock de datos)
+- Mock API (mock de datos)
 
 ## 🛒 Funcionalidades principales
 
@@ -39,10 +39,5 @@ Incluye catálogo por categorías, detalle de productos, **carrito con Context A
 - `/cart` carrito de compras  
 - `/orden-confirmada` confirmación de compra (simulada)
 
-## 📂 Datos
 
-Los productos se cargan desde:
-
-```bash
-public/data/products.json
 
