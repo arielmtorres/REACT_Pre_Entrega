@@ -1,0 +1,129 @@
+/* ===== App General ===== */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* ===== Admin / Login ===== */
+
+.admin-page {
+  min-height: calc(100vh - 70px);
+  /* dejar lugar al nav */
+  display: grid;
+  place-items: center;
+  padding: 2rem 1rem;
+}
+
+.admin-card {
+  width: min(520px, 92vw);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 16px;
+  padding: 2rem;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+.admin-title {
+  margin: 0 0 1.25rem 0;
+  font-size: clamp(1.4rem, 2.4vw, 2rem);
+  font-weight: 700;
+  color: #fff;
+}
+
+.admin-form {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.admin-input {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(0, 0, 0, 0.25);
+  color: #fff;
+  outline: none;
+}
+
+.admin-input::placeholder {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.admin-input:focus {
+  border-color: rgba(0, 255, 160, 0.55);
+  box-shadow: 0 0 0 3px rgba(0, 255, 160, 0.15);
+}
+
+.admin-btn {
+  width: 100%;
+  padding: 0.95rem 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  background: linear-gradient(90deg, rgba(0, 255, 160, .9), rgba(0, 160, 255, .9));
+  color: #0b0f1a;
+}
+
+.admin-btn:hover {
+  filter: brightness(1.05);
+}
+
+.admin-hint {
+  margin-top: 0.9rem;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.admin-error {
+  margin-top: 0.75rem;
+  padding: 0.75rem 0.9rem;
+  border-radius: 10px;
+  background: rgba(255, 80, 80, 0.12);
+  border: 1px solid rgba(255, 80, 80, 0.28);
+  color: rgba(255, 255, 255, 0.92);
+}
